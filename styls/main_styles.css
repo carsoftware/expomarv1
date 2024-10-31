@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+   
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: italic;
+      
+}
+.navbar a {
+  font-weight: 600px;
+  font-size: 22px;
+  color: #252853;
+}
+.carousel-item{
+    min-height: 400px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 3cqi;
+    font-weight: 600px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    color:#252853;
+}
+.carousel-caption p{
+    width: 120px;
+    margin: 10px auto;
+    font-size: 24px;
+    color: #252853;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0, 0.2);
+    z-index: 1;
+}
+.categorias{
+    padding: 80px 0;
+}
+.text-bg-card{
+    text-align: center;
+    margin-top: 30px;
+}
+.bg-car1{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    ), url(../images/moluscos.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+}
+.bg-car2{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    ), url(../images/crustaceos1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.bg-car3{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    ), url(../images/combos.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.bg-car4{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    ), url(../images/enteros.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.bg-car5{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    ), url(../images/lechecoco.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.bg-car6{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)
+    ), url(../images/filetes1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.box-icon-nav{
+    font-size: 22px;
+    padding: 10px;
+    color: 
+    #0bafd4;
+}
+.box-icon{
+    font-size: 40px;
+    color:#de702a;
+}
+.box-icon h3{
+    font-size: 30px;
+    font-weight: 800;
+}
+.product{
+    padding: 80px 0;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+.banner{
+    padding: 50px 0;
+    margin-bottom: 80px;
+    background-color: azure;
+}
+.banner h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.banner img{
+    width: 300px;
+}
+
+@media(max-width: 767px){
+    .carousel-item{
+        min-height: 500px;
+    }
+    .carousel-item img{
+        min-height: 400px;
+    }
+    .carousel-caption{
+        bottom: 30px;
+    }
+    .carousel-caption h5{
+        font-size: 50px;
+        margin-top: 0;
+    }
+    .carousel-caption p{
+        width: 100px;
+        font-size: 16px;
+    }
+    .product{
+        padding: 30px 0 0 0;
+    }
+    .banner{
+        margin-bottom: 30px;
+    }
+}
