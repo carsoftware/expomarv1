@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Kavivanar&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@font-face {
+    font-family: LEIXO;
+    src: url(font/LEIXO-DEMO.ttf);
+}
+h5, h3{
+    font-family: 'leixo';
+    
+}
 * {
-   
-    font-family: "Unna", serif;
-    font-weight: 400;
-    font-style: italic;
-      
+    font-weight: 300; 
+    color: #de702a;
+    
 }
 .navbar a {
   font-weight: 600px;
   font-size: 22px;
-  color: #252853;
+  color:#252853;
+}
+.nav-link{
+    font-family: serif;
+   
 }
 .carousel-item{
     min-height: 400px;
@@ -24,7 +34,7 @@
     font-weight: 600px;
     text-transform: uppercase;
     margin-top: 25px;
-    color:#252853;
+    color: #de702a; 
 }
 .carousel-caption p{
     width: 120px;
@@ -39,15 +49,17 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(0,0,0, 0.2);
+    background: rgba(0,0,0, 0.1);
     z-index: 1;
 }
 .categorias{
     padding: 80px 0;
 }
+
 .text-bg-card{
     text-align: center;
     margin-top: 30px;
+    color: #252853;
 }
 .bg-car1{
     background-image: linear-gradient(
@@ -107,12 +119,10 @@
 .box-icon-nav{
     font-size: 22px;
     padding: 10px;
-    color: 
-    #0bafd4;
-}
-.box-icon{
-    font-size: 40px;
-    color:#de702a;
+    color:#252853;
+    border-radius: 50px;
+    background-color: #de702a;
+    margin: 5px ;
 }
 .box-icon h3{
     font-size: 30px;
